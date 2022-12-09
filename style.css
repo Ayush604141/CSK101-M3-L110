@@ -1,0 +1,33 @@
+#articleGrid{
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-column-gap: 1em;
+}
+.article{
+  position: relative;
+  border-radius: 5px;
+  box-shadow: 0px 0px 2px 2px rgba(0,0,0,0.2);
+  text-align: center;
+  margin-top: 10%;
+  margin-left: 10%;
+  width: 50%;
+  padding: 10%;
+  animation: ease-in-out 1.5s;
+}
+.article:hover{
+  transform: scale(1.1);
+  background-color: lightcoral;
+}
+
+.article img{
+  height: 50px;
+  width: 50px;
+}
+
+.article h3{
+  font-size: 16px;
+}
+
+.article p{
+  font-size: 24px;
+}
